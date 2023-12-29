@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5%;
+  }
+  
+  nav {
+    padding: 2% 7%;
+  }
+  
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 1em;
+    color: #343a40; /* Set your desired text color */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black /* Set your desired link color */
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #007bff; /* Set your desired button border color */
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff; /* Set your desired button text color */
+    cursor: pointer;
+  }
+  
+  .btn-dark {
+    background-color: #343a40; /* Set your desired dark button background color */
+    border-color: #343a40;
+  }
+  
+  .btn:hover,
+  .btn-dark:hover {
+    background-color: gray; /* Set your desired button hover color */
+    border-color: black;
+  }
+  
+  .row_ne{
+    padding: 5% 0%;
+  }
+
+  #image_sm{
+    padding: 2% 7%;
+}
+.img_inline{
+    display: inline-flex;
+    width: 12%;
+    padding-right: 2rem;
+}
+
+  footer{
+    padding: 2% 7%;
+    background-color: black;
+  }
+.foot_heading{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+footer p {
+    color: gray;
+    font-size: 1rem;
+    text-align: left;
+}
+.foot_point{
+    color: gray;
+    text-decoration:none;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 0;
+}
