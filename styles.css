@@ -3,8 +3,11 @@ body {
   margin: 5%;
 }
 
+.nav_head{
+  background-color: #f0eeeb;
+}
 nav {
-  padding: 2% 7%;
+  padding: 2% 12%;
 }
 
 
@@ -65,7 +68,8 @@ nav {
   padding: 5% 0%;
 }
 .business{
-  padding: 2% 7%;
+  background-color: #f0eeeb;
+  padding: 0% 12%;
   text-align: left;
   
 }
@@ -100,18 +104,51 @@ li {
 }
 
 .hero_img{
-  max-width: 60%; height: auto; display: inline-block; margin: 0 auto;
+  max-width: 100%; height: auto; display: inline-block; margin: 0 auto;
 }
 #image_sm{
-  padding: 2% 7%;
+  padding: 2% 12%;
 }
 .img_inline{
   display: inline-flex;
   width: 12%;
   padding-right: 2rem;
 }
+
+#pricing{
+  padding: 0% 12%;
+}
+#pricing .row{
+  background-color: #f0eeeb;
+}
+.pricing_txt{
+  display: block;
+  padding: 5%;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.pricing_txt h1{
+  font-weight: bold;
+}
+.pricing_txt p{
+  padding-top: 2%;
+  font-size: 0.98rem;
+}
+
+.pricing_txt a{
+  text-decoration: underline;
+}
+.mobile {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 100; 
+  left: 0; 
+  z-index: 1; 
+}
 footer{
-  padding: 2% 7%;
+  padding: 2% 12%;
   background-color: black;
 }
 .foot_heading{
