@@ -66,17 +66,17 @@ nav {
 
 @media (max-width: 768px) {
   .nav-links {
-      display: none; /* Hide links by default for smaller screens */
+      display: none; 
   }
 
   .collapse-icon {
-      display: block; /* Show collapse icon */
+      display: block; 
       font-size: 1.5em;
       cursor: pointer;
   }
 
   .nav-links.show {
-      display: flex; /* Show links when the menu is active */
+      display: flex;
       flex-direction: column;
   }
 }
