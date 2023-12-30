@@ -26,7 +26,7 @@ nav {
 .nav-links {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2%;
   display: flex;
 }
 
@@ -64,6 +64,23 @@ nav {
   border-color: black;
 }
 
+@media (max-width: 768px) {
+  .nav-links {
+      display: none; /* Hide links by default for smaller screens */
+  }
+
+  .collapse-icon {
+      display: block; /* Show collapse icon */
+      font-size: 1.5em;
+      cursor: pointer;
+  }
+
+  .nav-links.show {
+      display: flex; /* Show links when the menu is active */
+      flex-direction: column;
+  }
+}
+
 .row_ne{
   padding: 5% 0%;
 }
@@ -72,6 +89,12 @@ nav {
   padding: 0% 12%;
   text-align: left;
   
+}
+.business .row{
+  padding-top: 2%;
+  padding-right: 0;
+  padding-bottom: 5%;
+  padding-left: 0;
 }
 .business_txt{
   display: block;
@@ -104,7 +127,10 @@ li {
 }
 
 .hero_img{
-  max-width: 100%; height: auto; display: inline-block; margin: 0 auto;
+  max-width: 100%; 
+  height: auto; 
+  display: inline-block; 
+  margin: 0 auto;
 }
 #image_sm{
   padding: 2% 12%;
@@ -115,10 +141,6 @@ li {
   padding-right: 2rem;
 }
 
-#pricing{
-  padding: 0% 12%;
-  position: relative;
-}
 #pricing{
   padding: 0% 12%;
 
@@ -149,6 +171,7 @@ li {
   top: 0%;
   left: -115%;
   z-index: 1;
+  
 }
 #Features{
   padding: 2% 12%;
@@ -167,8 +190,7 @@ li {
   font-size: 1rem;
 }
 .img_feature{
-  width: 100%;
-  
+  width: 100%;  
 }
 footer{
   padding: 2% 12%;
