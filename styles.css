@@ -119,18 +119,19 @@ li {
   padding: 0% 12%;
   position: relative;
 }
+#pricing{
+  padding: 0% 12%;
+
+}
 #pricing .row{
   padding: 0% 8%;
   background-color: #f0eeeb;
-  display: flex;
-  align-items: center;
+  z-index: 2;
+
 }
 .pricing_txt{
-  display: block;
+  
   padding: 5%;
-  flex: 1;
-  position: relative;
-  z-index: 2;
   
 }
 .pricing_txt h1{
@@ -141,13 +142,13 @@ li {
   font-size: 0.98rem;
 }
 .mobile {
-  max-width: 60%; 
+  max-width: 900%; 
   height: auto;
-  position: absolute; 
-  top: 50%; 
-  left: 58%;
-  transform: translate(-50%, -50%);  
-  z-index: 0; 
+  display: flex;
+  position: relative;
+  top: 0%;
+  left: -115%;
+  z-index: 1;
 }
 #Features{
   padding: 2% 12%;
